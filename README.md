@@ -24,9 +24,9 @@ Save the repository as a zip file and upload it in the WordPress Dashboard. You 
 ![ScreenShot](https://raw.github.com/schaufe/schema-inserter/master/screenshots/demo5.png)
 
 ## Resources
-Schema.org documentation: 
+Schema.org documentation:  
 https://schema.org/docs/full.html
 
-Tools for testing your markup:
-http://www.google.com/webmasters/tools/richsnippets
+Tools for testing your markup:  
+http://www.google.com/webmasters/tools/richsnippets  
 http://foolip.org/microdatajs/live/
