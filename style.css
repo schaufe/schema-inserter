@@ -1,0 +1,170 @@
+/**
+ * CSS to style tinymce editor pop up window
+ */
+
+#schema_form {
+	padding:10px 0;
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+#schema_form div{
+	padding: 3px 0;
+	margin:0;
+	overflow:hidden;
+	}
+#schema_form label {
+	font-size:100%;
+	display: block;
+	float: left;
+	margin: 0 34px 0 0;
+	padding:5px 0 4px 0;
+	width: 100px;
+	text-align:right;
+}
+
+
+#schema_form textarea,
+#schema_form select,
+#schema_form input {
+	display: block;
+	float: left;
+	width: 350px;
+	padding: 3px 5px;
+	font-size:100%;
+}
+
+#schema_form select:hover {
+	cursor:pointer;
+}
+
+#schema_form select option {text-indent:5px;}
+
+#schema_form select.schema_thindrop {
+	width:200px;
+	padding: 3px 5px;
+}
+
+#schema_form input.form_full {width:450px;}
+#schema_form input.form_half {width:225px;}
+#schema_form input.form_third {width:150px;}
+#schema_form input.form_fourth {width:110px;}
+#schema_form input.form_eighth {width:50px;}
+
+	/* Inline labels */
+
+#schema_form .labels_inline {
+	overflow:hidden;
+}
+
+#schema_form .labels_inline label {
+	float:left;
+	width:auto;
+	margin:0;
+	font-style:italic;
+	color:#999;
+	font-size:90%;
+}
+
+#schema_form .labels_inline input {
+	float:left;
+	margin:0 10px;
+}
+
+div.insert_button {
+	clear:both;
+	position:fixed;
+	left:0px;
+	bottom:30px;
+	margin-left:15px;
+	padding-left:5px;
+}
+
+div.insert_button input.schema_button {
+	float:left;
+	width:70px;
+	background:#333;
+	border:1px solid #111;
+	color:#fff;
+	cursor:pointer;
+	text-transform:uppercase;
+}
+
+div.insert_button input.schema_button:hover,
+div.insert_button input.schema_button:focus {
+	background:#eee;
+	color:#333;
+}
+
+div.insert_button input.schema_insert {margin:0 20px 0 0;}
+
+
+#schema_form label.list_label {
+	margin:0 10px 0 0;
+}
+
+#schema_form div.form_list {
+	display: block;
+    float: right;
+    padding: 10px 3px 5px 3px;
+    width: 450px;
+}
+
+#schema_form div.form_list span {
+	width:100%;
+	display:block;
+	overflow:hidden;
+	margin:0 0 3px 0;
+}
+#schema_form div.form_list input {
+	width:20px;
+	float:left;
+	margin:0 3px 0 0;
+}
+
+#schema_form div.form_list label {
+	width:250px;
+	float:left;
+	text-align:left;
+	margin:0;
+	padding:0;
+	color:#666666;
+}
+
+#schema_form .checkbox {
+	float:left;
+	text-align:none;
+}
+
+#rec, #warn, #addlwarn, #alert {
+	font-size:12px;
+	padding: 0 0.7em;
+	vertical-align:middle;
+}
+
+#warn, #addlwarn, #alert {
+	color:#CC0000;	
+	font-style:italic;
+}
+
+#schema_form #img_align{
+	width: 75px;
+}
+
+#schema_form label.additional {
+	font-style:italic;
+	color:#999;
+	font-size:90%;
+	padding: 6px 0 4px 4px;
+	vertical-align: middle;
+	width: auto;
+	margin: 0;
+}
+
+#sc_messages p {
+	font-style:italic;
+	font-weight:700;
+	text-align:center;
+}
+
+#sc_messages p.pending {color:#CC0000;}
